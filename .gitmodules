@@ -1,0 +1,3 @@
+[submodule "products-db"]
+	path = products-db
+	url = https://github.com/walmartdigital/products-db.git

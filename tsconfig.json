@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "strict": false,
+    "noEmit": false,
+    "outDir": "dist",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
+    "noImplicitUseStrict": true,
+    "sourceMap": false,
+    "declaration": false,
+    "preserveConstEnums": true,
+		"types": [
+      "jest"
+    ],
+    "lib": [
+      "esnext",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "./src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
